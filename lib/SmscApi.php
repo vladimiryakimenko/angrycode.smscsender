@@ -30,10 +30,10 @@ class SmscApi
   {
     $result = new Result();
     $cache_key = 'SMSC_GET_SENDER_LIST';
-    $cache = Cache::createInstance(); // РїРѕР»СѓС‡Р°РµРј СЌРєР·РµРјРїР»СЏСЂ РєР»Р°СЃСЃР°
+    $cache = Cache::createInstance(); // получаем экземпляр класса
     $response = [];
-    if ($cache->initCache(3360, $cache_key)) { // РїСЂРѕРІРµСЂСЏРµРј РєРµС€ Рё Р·Р°РґР°С‘Рј РЅР°СЃС‚СЂРѕР№РєРё
-      $result = $cache->getVars(); // РґРѕСЃС‚Р°РµРј РїРµСЂРµРјРµРЅРЅС‹Рµ РёР· РєРµС€Р°
+    if ($cache->initCache(3360, $cache_key)) { // проверяем кеш и задаём настройки
+      $result = $cache->getVars(); // достаем переменные из кеша
     }
     elseif ($cache->startDataCache()) {
 
@@ -54,7 +54,7 @@ class SmscApi
       }
 
       $result->setData($senders);
-      $cache->endDataCache($result); // Р·Р°РїРёСЃС‹РІР°РµРј РІ РєРµС€
+      $cache->endDataCache($result); // записываем в кеш
     }
 
     return $result;

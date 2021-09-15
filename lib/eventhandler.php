@@ -7,7 +7,7 @@ class EventHandler
   function eventHandler()
   {
     return [
-      // РљР»Р°СЃСЃ РЅР°С€РµРіРѕ РЎРњРЎ-СЃРµСЂРІРёСЃР°
+      // Класс нашего СМС-сервиса
       new Smsc(),
     ];
   }

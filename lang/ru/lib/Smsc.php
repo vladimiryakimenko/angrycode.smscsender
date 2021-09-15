@@ -1,3 +1,3 @@
 <?php
 
-$MESS['ANGRYCODE_SMSCSENDER_SENDMESSAGE'] = 'ÐžÑˆÐ¸Ð±ÐºÐ° Ð¾Ñ‚Ð¿Ñ€Ð°Ð²ÐºÐ¸. Ð¡ÐœÐ¡-ÑÐµÑ€Ð²Ð¸Ñ Ð¾Ñ‚ÐºÐ»ÑŽÑ‡ÐµÐ½';
+$MESS['ANGRYCODE_SMSCSENDER_SENDMESSAGE'] = 'Îøèáêà îòïðàâêè. ÑÌÑ-ñåðâèñ îòêëþ÷åí';

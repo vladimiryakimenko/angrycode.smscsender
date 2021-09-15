@@ -1,5 +1,5 @@
 <?php
 
 $MESS['ANGRYCODE_SMSCSENDER_MODULE_NAME'] = 'SMSC Sender';
-$MESS['ANGRYCODE_SMSCSENDER_MODULE_DESCRIPTION'] = 'ÐœÐ¾Ð´ÑƒÐ»ÑŒ Ð´Ð¾Ð±Ð°Ð²Ð»ÑÐµÑ‚ Ð²Ð¾Ð·Ð¼Ð¾Ð¶Ð½Ð¾ÑÑ‚ÑŒ Ð¾Ñ‚Ð¿Ñ€Ð°Ð²ÐºÐ¸ Ð¡ÐœÐ¡ ÑÐ¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ð¹ Ð¸ÑÐ¿Ð¾Ð»ÑŒÐ·ÑƒÑ Ð¿Ñ€Ð¾Ð²Ð°Ð¹Ð´ÐµÑ€Ð° SMSC';
+$MESS['ANGRYCODE_SMSCSENDER_MODULE_DESCRIPTION'] = 'Ìîäóëü äîáàâëÿåò âîçìîæíîñòü îòïðàâêè ÑÌÑ ñîîáùåíèé èñïîëüçóÿ ïðîâàéäåðà SMSC';
 $MESS['ANGRYCODE_SMSCSENDER_MODULE_PARTNER_NAME'] = 'ANGRYCODE';

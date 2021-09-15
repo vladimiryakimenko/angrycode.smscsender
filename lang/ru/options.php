@@ -1,9 +1,9 @@
 <?php
 defined('B_PROLOG_INCLUDED') and (B_PROLOG_INCLUDED === true) or die();
 
-$MESS['REFERENCES_PROVIDER'] = "ÐŸÑ€Ð¾Ð²Ð°Ð¹Ð´ÐµÑ€";
-$MESS['REFERENCES_LOGIN'] = "Ð›Ð¾Ð³Ð¸Ð½";
-$MESS['REFERENCES_PASSWORD'] = "ÐŸÐ°Ñ€Ð¾Ð»ÑŒ";
-$MESS['REFERENCES_OPTIONS_RESTORED'] = "Ð’Ð¾ÑÑÑ‚Ð°Ð½Ð¾Ð²Ð»ÐµÐ½Ñ‹ Ð½Ð°ÑÑ‚Ñ€Ð¾Ð¹ÐºÐ¸ Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ";
-$MESS['REFERENCES_OPTIONS_SAVED'] = "ÐÐ°ÑÑ‚Ñ€Ð¾Ð¹ÐºÐ¸ ÑÐ¾Ñ…Ñ€Ð°Ð½ÐµÐ½Ñ‹";
-$MESS['REFERENCES_INVALID_VALUE'] = "Ð’Ð²ÐµÐ´ÐµÐ½Ð¾ Ð½ÐµÐ²ÐµÑ€Ð½Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ";
+$MESS['REFERENCES_PROVIDER'] = "Ïðîâàéäåð";
+$MESS['REFERENCES_LOGIN'] = "Ëîãèí";
+$MESS['REFERENCES_PASSWORD'] = "Ïàðîëü";
+$MESS['REFERENCES_OPTIONS_RESTORED'] = "Âîññòàíîâëåíû íàñòðîéêè ïî óìîë÷àíèþ";
+$MESS['REFERENCES_OPTIONS_SAVED'] = "Íàñòðîéêè ñîõðàíåíû";
+$MESS['REFERENCES_INVALID_VALUE'] = "Ââåäåíî íåâåðíîå çíà÷åíèå";
